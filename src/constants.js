@@ -1,8 +1,8 @@
-export const startMessage = `•  **Tʜɪs Bᴏᴛ Gɪᴠᴇs Oɴᴇ Fʀᴇᴇ Rᴇᴀᴄᴛɪᴏɴ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘs Tᴏ Eᴠᴇʀʏ Nᴇᴡ Mᴇssᴀɢᴇ** 😘
+export const startMessage = `• **Tʜɪs Bᴏᴛ Gɪᴠᴇs Oɴᴇ Fʀᴇᴇ Rᴇᴀᴄᴛɪᴏɴ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘs Tᴏ Eᴠᴇʀʏ Nᴇᴡ Mᴇssᴀɢᴇ** 😘
 
-• **Fᴏʀ Mᴏʀᴇ Iɴꜰᴏ [Cʜᴇᴄᴋ Tʜɪs Oᴜᴛ**](https://te.legra.ph/Reaction-BOTS-Guide-05-07) 💯
+• [**Fᴏʀ Mᴏʀᴇ Iɴꜰᴏ Cʜᴇᴄᴋ Tʜɪs Oᴜᴛ 💯**](https://example.com)
 
-• **Bᴏᴛ Cʀᴇᴀᴛᴇᴅ Bʏ @WarFade** ❤️`
+• **Bᴏᴛ Cʀᴇᴀᴛᴇᴅ Bʏ @WarFade ❤️**`;
 export const htmlContent = `
 <!DOCTYPE html>
 <html lang="en">
