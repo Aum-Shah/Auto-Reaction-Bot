@@ -39,18 +39,18 @@ export default {
                 await botApi.sendMessage(chatId, startMessage.replace('UserName', content.chat.type === "private" ? content.from.first_name : content.chat.title),
 				[
 					[
-                        {"text": "➕ Add to Channel ➕", "url": `https://t.me/${botUsername}?startchannel=botstart`},
-						{"text": "➕ Add to Group ➕", "url": `https://t.me/${botUsername}?startgroup=botstart`},
-					],
+                        {"text": "Add Me To Channel 🥰", "url": `https://t.me/${botUsername}?startchannel`},
+						{"text": "Add Me To Group 💝", "url": `https://t.me/${botUsername}?startgroup`},
+					]
+				],
                     [
-                        {"text": "Github Source 📥", "url": "https://github.com/Aum-Shah/Auto-Reaction-Bot"},
+                        {"text": "Contact Owner 💯", "url": "https://telegram.me/WarFade"},
                     ]
-				]
 				);
             } else 
 			if (data.message && text === '/reactions') {
 				const reactions = Reactions.join(", ");
-				await botApi.sendMessage(chatId, "✅ Enabled Reactions : \n\n" + reactions);
+				await botApi.sendMessage(chatId, "✅ Available Reactions : \n\n" + reactions);
 			} else {
                 if (!(RestrictedChats.includes(chatId))) {
                     await botApi.setMessageReaction(chatId, message_id, getRandomPositiveReaction(Reactions));
