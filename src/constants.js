@@ -2,7 +2,7 @@ export const startMessage = `• **Tʜɪs Bᴏᴛ Gɪᴠᴇs Oɴᴇ Fʀᴇᴇ R�
 
 • [**Fᴏʀ Mᴏʀᴇ Iɴꜰᴏ Cʜᴇᴄᴋ Tʜɪs Oᴜᴛ 💯**](https://example.com)
 
-• **Bᴏᴛ Cʀᴇᴀᴛᴇᴅ Bʏ @WarFade ❤️**`;
+• **Bᴏᴛ Cʀᴇᴀᴛᴇᴅ Bʏ @L ❤️**`;
 export const htmlContent = `
 <!DOCTYPE html>
 <html lang="en">
