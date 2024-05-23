@@ -3,13 +3,31 @@ name: Deploy to Cloudflare Workers
 on: 
   workflow_dispatch:
       
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
     name: Deploy
     steps:
       - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Update package name
+        run: node update-package-name.js
+        env:
+          PACKAGE_NAME: ${{ secrets.PACKAGE_NAME }}
+
+      - name: Generate wrangler.toml
+        run: node generate-wrangler-toml.js
+        env:
+          PACKAGE_NAME: ${{ secrets.PACKAGE_NAME }}
+
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
