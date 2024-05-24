@@ -59,7 +59,7 @@ export default {
             } else 
 			if (data.message && text === '/reactions') {
 				const reactions = Reactions.join(", ");
-				await botApi.sendMessage(chatId, "✅ Available Reactions : \n\n" + reactions);
+				await botApi.sendMessage(chatId, "📌 Aᴠᴀɪʟᴀʙʟᴇ Rᴇᴀᴄᴛɪᴏɴꜱ\n\n♻️ Pʟᴇᴀꜱᴇ Eɴꜱᴜʀᴇ Tʜᴀᴛ Tʜᴇꜱᴇ Rᴇᴀᴄᴛɪᴏɴꜱ Aʀᴇ Eɴᴀʙʟᴇᴅ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ/Cʜᴀɴɴᴇʟ Fᴏʀ Pʀᴏᴘᴇʀ Fᴜɴᴄᴛɪᴏɴɪɴɢ Oꜰ Bᴏᴛ : \n\n" + reactions);
 			} else {
                 if (!(RestrictedChats.includes(chatId))) {
                     await botApi.setMessageReaction(chatId, message_id, getRandomPositiveReaction(Reactions));
