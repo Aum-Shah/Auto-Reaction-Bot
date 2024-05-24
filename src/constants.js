@@ -1,8 +1,8 @@
-export const startMessage = `• **Tʜɪs Bᴏᴛ Gɪᴠᴇs Oɴᴇ Fʀᴇᴇ Rᴇᴀᴄᴛɪᴏɴ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘs Tᴏ Eᴠᴇʀʏ Nᴇᴡ Mᴇssᴀɢᴇ** 😘
+export const startMessage = `• *Tʜɪs Bᴏᴛ Gɪᴠᴇs Oɴᴇ Fʀᴇᴇ Rᴇᴀᴄᴛɪᴏɴ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘs Tᴏ Eᴠᴇʀʏ Nᴇᴡ Mᴇssᴀɢᴇ* 😘
 
-• [**Fᴏʀ Mᴏʀᴇ Iɴꜰᴏ Cʜᴇᴄᴋ Tʜɪs Oᴜᴛ 💯**](https://example.com)
+• *Fᴏʀ Mᴏʀᴇ Iɴꜰᴏ [Cʜᴇᴄᴋ Tʜɪs Oᴜᴛ](https://te.legra.ph/Reaction-BOTS-Guide-05-07) 💯*
 
-• **Bᴏᴛ Cʀᴇᴀᴛᴇᴅ Bʏ @L ❤️**`;
+• **Bᴏᴛ Cʀᴇᴀᴛᴇᴅ Bʏ @WarFade ❤️**`;
 export const htmlContent = `
 <!DOCTYPE html>
 <html lang="en">
@@ -22,8 +22,8 @@ export const htmlContent = `
 </head>
 <body>
 
-<div class="title">Bᴏᴛ Cʀᴇᴀᴛᴇᴅ Bʏ @WarFade ❤️</div>
 <img class="logo" src="https://i.imgur.com/FJzsxbr.jpeg">
+<div class="title">Bᴏᴛ Cʀᴇᴀᴛᴇᴅ Bʏ @WarFade ❤️</div>
 </body>
 </html>
 `;
