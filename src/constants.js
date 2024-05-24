@@ -1,4 +1,4 @@
-export const startMessage = `*• This Bot Gives One Free Reaction In Your Groups To Every New Message* 😘\n\n*• For More Info* [*Check This Out*](https://te.legra.ph/Reaction-BOTS-Guide-05-07) 💯\n\n*• Bot Created By @WarFade ❤️*`;
+export const startMessage = `<b>• Tʜɪs Bᴏᴛ Gɪᴠᴇs Oɴᴇ Fʀᴇᴇ Rᴇᴀᴄᴛɪᴏɴ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘs Tᴏ Eᴠᴇʀʏ Nᴇᴡ Mᴇssᴀɢᴇ 😘\n\n• Fᴏʀ Mᴏʀᴇ Iɴꜰᴏ <a href='https://te.legra.ph/Reaction-BOTS-Guide-05-07'>Cʜᴇᴄᴋ Tʜɪs Oᴜᴛ</a> 💯\n\n• Bᴏᴛ Cʀᴇᴀᴛᴇᴅ Bʏ @WarFade</b> ❤️`;
 
 export const htmlContent = `
 <!DOCTYPE html>
