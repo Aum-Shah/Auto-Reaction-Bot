@@ -32,7 +32,7 @@ export default class TelegramBotAPI {
         await this.callApi('sendMessage', {
             chat_id: chatId,
             text: text,
-            parse_mode: "Markdown",
+            parse_mode: "HTML",
             disable_web_page_preview:true,
             ...(inlineKeyboard && { reply_markup: { inline_keyboard: inlineKeyboard } })
         });
