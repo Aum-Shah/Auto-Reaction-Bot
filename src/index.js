@@ -39,13 +39,22 @@ export default {
                 await botApi.sendMessage(chatId, startMessage.replace('UserName', content.chat.type === "private" ? content.from.first_name : content.chat.title),
 				[
 					[
-                        {"text": "Add Me To Channel 🥰", "url": `https://t.me/${botUsername}?startchannel`},
-						{"text": "Add Me To Group 💝", "url": `https://t.me/${botUsername}?startgroup`},
-					]
-				],
-                    [
-                        {"text": "Contact Owner 💯", "url": "https://telegram.me/WarFade"},
-                    ]
+                                                {
+							"text": "Add Me To Channel 🥰", 
+							"url": `https://t.me/${botUsername}?startchannel`
+						},
+						{
+							"text": "Add Me To Group 💝", 
+							"url": `https://t.me/${botUsername}?startgroup`
+						},
+					],
+                                        [
+					        {
+							"text": "Contact Owner 💯", 
+							"url": "https://telegram.me/WarFade"
+						},
+                                        ]
+                                ]
 				);
             } else 
 			if (data.message && text === '/reactions') {
